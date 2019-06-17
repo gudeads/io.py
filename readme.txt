@@ -1,12 +1,12 @@
 io.py
 ==========
-switch output states on remote devices' input state changes
+- Switch output states on remote devices' input state changes, using HTTP/Json interface
 
 
 Examples:
 ==========
 
-Switch Port 1 on epc1202.localnet accoring to Input 1 on enc2302.localnet
+Switch Port 1 on epc1202.localnet according to Input 1 on enc2302.localnet
   ./io.py --io enc2302.localnet:1:epc1202.localnet:1
 
 Enable SSL
